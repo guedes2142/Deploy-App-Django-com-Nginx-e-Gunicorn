@@ -47,7 +47,7 @@ Agora teste o App
 ```
 cd /home/myproject
 gunicorn --bind ip_do_vps:8000 <nome_da_pasta_com_o_arquivo_wsgi>.wsgi:application
-os <> é só simbolico nao inclua eles!!!!
+os <> é simbólico não inclua no script!!!!
 ```
 
 Acesse `http://ip_do_vps:8000` no navegador para verificar se tudo está funcionando.
